@@ -1,0 +1,534 @@
+
+body 
+{
+	background-color: white;
+	background-color: #cccccc;
+	font-family:  "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	color: black;
+}
+
+h1 
+{ 
+	font-size: 15pt; 
+	font-weight: bold; 
+	text-align: left; 
+	color: #ff8000;
+	font-style: italic;
+	text-shadow: 1px 1px 0px #444444;
+	/*display:inline; */
+}
+
+
+
+p
+{ 
+	/*display:inline;*/
+	text-shadow: px 1px 0px #ffffff;
+}
+
+
+
+
+a:link 
+{
+	font-weight: bold; 
+}
+ 
+a:visited 
+{
+	font-weight: bold; 
+}
+ 
+ 
+a:active 
+{
+	font-weight: bold; 
+	color: #00FF00;
+}
+
+
+.article
+{
+	//background: #ff8000;
+	width:100%;
+	//box-shadow: 0 2px 2px -2px gray;
+	padding:5px;
+}
+
+
+
+.leftdv
+{
+	font-size: 15pt; 
+	font-weight: bold; 
+	text-align: left; 
+	color: #ff8000;
+	font-style: italic;
+	text-shadow: 1px 1px 0px #ffffff;
+	font-style:italic;
+	/*width:50%;*/
+	Text-align:left;
+	float:left;
+}
+
+.rightdv
+{
+	font-style:italic;
+	font-size: 10pt; 
+	/*width:50%;*/
+	Text-align:right;
+	float:right;
+}
+
+.sidebartitle
+{
+	font-weight: bold; 
+
+}
+
+.relatedtags
+{
+
+}
+
+
+/*
+
+	The tag cloud stuff
+
+*/
+.table_matrix
+{
+	background: #3d748e;
+	text-align:center;
+}
+
+.table_matrix th
+{
+	background: #c7c7c7;
+	width: 12.5%;
+}
+
+.table_matrix td
+{
+	background: #d7d7d7;
+	width: 12.5%;
+}
+
+.table_matrix tr
+{
+	/*background: #00ffff*/;
+}
+
+
+/*
+.articlebackground
+{
+	background: linear-gradient(#D0D0D0, #E5E5E5);	
+}
+*/
+.article_title
+{ 
+	clear:both;
+	font-size: 12pt; 
+	font-weight: bold; 
+	text-align: left; 
+	color: #222222;
+	//font-style: italic;
+	text-shadow: 0px 1px 0px #ffffff;
+	//box-shadow: 0 2px 1px -1px gray;
+	padding: 10px;
+	/*display:inline;*/
+}
+
+.subscript
+{
+	font-size:small; 
+	//vertical-align:bottom;
+} 
+
+.text
+{ 
+	clear:both;
+	/*display:inline;*/
+	color: #222222;
+	font: 0.9em "Helvetica Neue", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", sans-serif;	
+	text-shadow: 0px 1px 0px #ffffff;
+	padding: 10px;	
+}
+
+.readmore
+{
+	width:100%;
+	//border: 1px solid #CCCCCC;
+	padding: 3px;
+	margin: 5px; 
+	text-align:right; 
+	font-weight: 700;
+	font-style:italic;
+	text-decoration: none;
+}
+
+a
+{
+	text-decoration: none;
+	color: #123456
+}
+
+a:hover 
+{
+	font-weight: bold; 
+	color: #FF0000;
+}
+
+/*
+*
+*  For the quotes
+*
+*/
+.quote
+{
+	font-style:italic;
+	/*color: #888888; https://webaim.org/resources/contrastchecker/*/ 
+	color: #595959;
+	//text-shadow: -1px -1px 0px #666666;
+}
+
+.author
+{
+	text-align:right;
+	font-weight:bold;
+	/*color: #888888; https://webaim.org/resources/contrastchecker/*/ 
+	color: #595959;
+}
+
+
+.book_extract
+{
+	border-left: 4px solid dcdcdc;
+	background-color: #f5f5f5;
+	padding: 20px;
+}
+
+
+/*
+
+Copied from wordpress
+
+*/
+.picture 
+{ 
+	width:350px;
+	background-color: #F9F9F9;
+	border: 1px solid #CCCCCC; 
+	padding: 3px;
+	font: 11px/1.4em Arial, sans-serif; 
+}
+.picture img 
+{ 
+	border: 1px solid #CCCCCC;
+	vertical-align:middle; 
+	margin-bottom: 3px; 
+}
+.right 
+{ 
+	margin: 0.5em 0pt 0.5em 0.8em; 
+	float:right; 
+}
+.left 
+{ 
+	margin: 0.5em 0.8em 0.5em 0; 
+	float:left; 
+}
+.center
+{ 
+	margin: 0.5em 0.8em 0.5em 0; 
+}
+.large
+{ 
+	width:550px;
+	margin: 0.5em 0.8em 0.5em 0; 
+}
+
+.youtube 
+{ 
+	background-color: #F9F9F9;
+	border: 1px solid #CCCCCC; 
+	padding: 3px;
+	font: 11px/1.4em Arial, sans-serif; 
+}
+
+.toc 
+{ 
+	background-color: #DDDDDD;
+	border: 1px solid #CCCCCC; 
+	padding: 8px;
+	font: 11px/1.4em Arial, sans-serif; 
+	width:150px;
+}
+
+.tocentry 
+{ 
+	text-decoration: none;
+	color: #333333;
+	list-style-type: disc;
+	display: list-item;
+	list-style-position: inside;
+}
+
+
+h2 
+{
+	text-decoration: none;	
+	color: #333333;
+}
+
+/*
+
+Page selector
+
+*/
+.pageselectorbox
+{
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+	margin: 5px; 
+	text-align:center; 	
+}
+
+.pageselectorentry
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+.pageselectorcurrententry
+{
+	color: #111111;
+	font-weight: bold; 
+	text-decoration: none;
+}
+
+.alignright
+{ 
+	text-decoration: none;
+	color: #333333;
+	text-align: right; 
+	font: 11px/1.4em Arial, sans-serif; 
+}
+.alignleft 
+{
+	text-decoration: none;
+	color: #12345;
+	text-align: left; 
+	font: 11px/1.4em Arial, sans-serif; 
+}
+
+/*
+
+	The tag cloud stuff
+
+*/
+.tagcloud
+{
+
+}
+
+.tagcloudlink
+{
+	color: #222222;
+	text-decoration: none;	
+}
+
+
+
+/* 
+      This is the 3 columns layout
+*/
+.wrapper 
+{
+	background: #ffffff;
+	
+	text-align: left;
+	margin: 0px auto;
+	padding: 10px;
+	border:0;
+	width: 1100px;
+	//background: url("/path/to/your/background_cols.gif") repeat;
+}
+
+.header 
+{
+	margin: 0 0 15px 0;
+}
+
+.side-a 
+{
+	float: left;
+	width: 170px;
+	padding: 15px;
+}
+
+.side-b 
+{
+	float: right;
+	width: 170px;
+	padding: 15px;
+}
+
+.content 
+{ 
+	background-color: #eeeeee;
+	
+	float: left;
+	width: 56%;
+	margin: 10px;
+	padding: 25px;
+}
+
+/* 
+	On narrow screens (vertical A4 screen), mobile device 
+	we switch to a vertical layout.
+*/
+@media screen and (max-width : 1080px) 
+{
+	.wrapper,
+    .side-a, 
+    .side-b, 
+    .content 
+    {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .side-a , .side-b
+    {
+        /*padding-bottom: 30px;*/
+        /*background-color: #ffff00;*/
+    }
+}
+
+/* 
+	Double size font on high density screens 
+*/
+@media (-webkit-min-device-pixel-ratio: 1.5)
+{ 
+    .wrapper 
+    {
+		font-size: 200%;
+	}
+}
+
+#footer 
+{
+	clear: both;
+	//font-weight: bold; 
+	text-shadow: 0px 1px 0px #ffffff;
+	padding: 10px;
+	text-align: center;
+	color: #888888;
+	background: #dddddd;
+}
+
+
+/*
+
+	Testimonial
+
+*/
+
+.testimonial {
+ width:620px;
+ float:left;
+ margin:15px 0 30px 0;
+ }
+ .left-quote {
+ float:left;
+ background:url(/pics/quote-left.jpg) no-repeat top;
+ width:68px;
+ height:77px;
+ }
+ .testi-text {
+ float:left;
+ text-align:justify;
+ width:470px;
+ padding-right:65px;
+ background:url(/pics/quote-right.jpg) no-repeat right bottom;
+ }
+ .testi-pic {
+ float:left;
+ width:77px;
+ height:104px;
+ margin-left:70px;
+ display:inline;
+ }
+ .testi-name {
+ float:left;
+ padding:30px 0 0 15px;
+ }
+
+
+/*
+
+	Tabs
+	
+*/
+
+#tabs 
+{
+	color: #00ffff;
+	border-bottom: .3em solid #dddddd;
+	margin: 0;
+	padding: 0;
+}
+
+#tabs li 
+{ 
+	display:inline; 
+	border-top: .1em solid #dddddd;
+	border-left: .1em solid #dddddd;
+	border-right: .1em solid #dddddd;
+	background: #dddddd;
+	color: #00ffff;
+}
+
+#tabs li a 
+{
+	text-decoration: none;
+	padding: 0.25em 1em;
+	/*color: #888888; https://webaim.org/resources/contrastchecker/*/ 
+	color: #595959;
+} 
+
+#page1 #tabs li#tab1,
+#page2 #tabs li#tab2,
+#page3 #tabs li#tab3, 
+#page4 #tabs li#tab4, 
+#page5 #tabs li#tab5
+{
+	color: #000000;
+	padding: 0.25em 1em;
+	background-color: #ffffff;
+	//border-bottom: .3em solid #dddddd;
+	//font-weight: bold;
+	//font-size: bigger;
+}
+
+ 
+.zoom {
+  /*padding: 50px;
+  background-color: green;*/
+  transition: transform .2s; /* Animation */
+  box-shadow: 3px 3px 4px #3e3e3e;
+  /*width: 200px;
+  height: 200px;
+  margin: 0 auto;*/
+}
+
+.zoom:hover {
+  transform: scale(3.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+} 
+
+
